@@ -126,7 +126,7 @@ body p span{
 }
 .categorias p{
    font-weight: bold;
-   color:black;
+   color:white;
 }
 .cat {
     display: inline-block;
@@ -139,15 +139,17 @@ body p span{
 }
 ul {
     list-style-type:none;
+   
+   
 
 }
 li {
     float:right;
-}
-li a {
-    display: block;
     color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-  }
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+.fa-solid, .fa-gift{
+    white;margin-right:5px;
+}

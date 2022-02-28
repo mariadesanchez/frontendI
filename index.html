@@ -1,30 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <title>Listas Ordenadas y Desordenadas</title>
 </head>
-
+<header>
+    <div class="ofertas">
+     <div>
+        <p>Grandes ofertas en comederos</p>
+     </div>
+       <div>
+         
+          <select class="idioma" >
+            <option>Español</option>
+            
+          </select>
+         </div> 
+    
+        <div>
+          <select >
+            <option>ARG</option>
+          </select>
+        </div>
+      </div>
+    <nav class="categorias">
+        <div class="nav-izquierda">
+        <img src="img/cat.png" Alt="cat" style="float: left">
+        <p>Front<span style="color:white"> Cat&Dog</span></p>
+        <img src="img/dog.png" Alt="dog" style="float:right;">
+    </div>
+    <div class="nav-derecha">
+     <ul>
+        <li><a href="#categorias">Categorías</a></li>
+        <li><a href="#pets">Pets</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contactanos">Contactanos</a></li>
+     </ul>
+    </div>
+    </nav>
+    <div class="marca">
+        <img src="img/marca.png" Alt="marca Petshop">
+        
+    </div>
+    
+</header>
 
 <body>
-    <ul>
-        <li>Rojo</li>
-        <li>Violeta</li>
-        <li>Amarillo</li>
-    </ul>
-    <ol start="10">
-        <li>Peli1</li>
-        <li>Peli2</li>
-        <li>Peli3</li>
-       
-    </ol>
-    <a href="https://google.com"><img src="https://bit.ly/2WDMapV"></a>
-    <a href="https://www.facebook.com"><li>Facebook</li></a>
-    <a href="https://www.instagram.com"><li>Instagram</li></a>
-    <a href="https://www.ole.com.ar"><li>Olé</li></a>
-  </ul>
+    <img src="img/dedito.png" Alt="patita" class="dedito">
+    <img src="img/patita.png" Alt="patita" class="patita">
+    <h1>Productos destacados</h1>
+    <p> Comederes<span>--</span>-<span>--</span>Accesorios<span>--</span>-<span>--</span>Comida</p>
+    <section class="productos">
+        <article class="article-uno"><img src="img/churrasquito.png" Alt="churrasquito">
+          <div class="text-over">Juguete churrasquito<br><span>$150</span></div>
+        </article>
+        <article class="article-dos"><img src="img/comedero.png" Alt="churrasquito">
+        <div class="text-over">Comedero para Perro<br><span>$250</span></div>
+    </article>
+        <article class="article-tres"><img src="img/huesito.png" Alt="churrasquito">
+        <div class="text-over">Juguete Huesito<br><span>$650</span></div>
+    </article> 
+    </section>
+
 </body>
 </html>
 

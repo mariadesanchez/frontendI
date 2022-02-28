@@ -1,0 +1,153 @@
+.ofertas {
+    background-color: black;
+    width: 1024px;
+    height: 20px;
+    display: flex;
+}
+
+.idioma{
+    margin-left: 650px;
+}
+
+body{
+ font-family: 'roboto', sans-serif;
+ font-weight: 400;
+ font-style: normal;
+ width: 1025px;
+}
+.ofertas p {
+   
+    color:white;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 11.72px;
+    margin-left: 90px;
+    margin-top: 4px;
+
+}
+nav {
+    width: 1024px;
+    height: 62px;
+    background-color:#F0A83E;
+    
+}
+.nav-izquierda{
+    display: inline-block;
+    width: 200px;
+    height: 10px;
+    float: left;
+  
+    
+}
+.nav-derecha{
+    display: inline-block;
+    width: 500px;
+    height: 10px;
+    float: right;
+  
+    
+}
+.marca img{
+    width: 1025px;
+    height: 409px;
+   
+}
+.patita{
+    width: 60px;
+    height:50px;
+    margin-top: 29.67px;
+    margin-left: 500px;
+   
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    line-height: 46.88px;
+
+}
+body p{
+    font-size: 15px;
+    line-height: 17.88px;
+    text-align: center;
+    margin-top:20px;
+    color:#666666:
+   
+}
+body p span{
+    color: white;
+}
+.productos{
+    display: flex;
+}
+.productos > article{
+    margin: 10px;
+    padding: 20px;
+    ustify-content: space-around;
+
+
+}
+.article-uno{
+    width: 265px;
+    height:268.86px;
+    margin-left: 45px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+
+}
+
+.article-dos{
+    width: 262.03px;
+    height:266.86px;
+    display: inline-block;
+    position: relative;
+    text-align: center; 
+
+}
+
+.article-tres{
+    width: 262.03px;
+    height:266.86px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+
+}
+.text-over{
+    position: absolute;
+    top:80%;
+    left: 25%;
+}
+
+.text-over span{
+    color:#F0A83E;
+    
+}
+.categorias p{
+   font-weight: bold;
+   color:black;
+}
+.cat {
+    display: inline-block;
+    position: relative;
+    float: left;
+    
+}
+.categorias p{
+    display: inline-block;
+}
+ul {
+    list-style-type:none;
+
+}
+li {
+    float:right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
